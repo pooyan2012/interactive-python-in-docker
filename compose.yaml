@@ -1,0 +1,7 @@
+services:
+  pythonapp:
+    build: .
+    volumes:
+      - type: bind
+        source: ./
+        target: /home/app_user
